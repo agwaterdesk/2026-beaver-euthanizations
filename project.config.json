@@ -1,0 +1,25 @@
+{
+  "project": {
+    "name": "2026-beaver-euthanizations",
+    "slug": "2026-beaver-euthanizations"
+  },
+  "s3": {
+    "bucket": "",
+    "folder": "2026-beaver-euthanizations"
+  },
+  "google": {
+    "doc": [
+      {
+        "id": "",
+        "filepath": "src/data/copy.json"
+      }
+    ],
+    "sheet": [
+      {
+        "id": "",
+        "gid": "",
+        "filepath": ""
+      }
+    ]
+  }
+}
