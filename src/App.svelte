@@ -42,7 +42,6 @@
 
   let selectedVariable = "count";
 
-
   function generateNiceTicks(maxValue, tickCount) {
     // Use d3.ticks to generate the tick values
     const ticksGenerator = ticks(0, maxValue, tickCount);
@@ -77,20 +76,7 @@
 <Window />
 <!-- Outer div must have class 'chart-container' don't change -->
 <div class="chart-container">
-  <h1 class="headline">Beavers killed by USDA Wildlife Services in 2023</h1>
-  <p class="dek">
-    <!-- <span class="town orange" /> Corona is a community isolated from its state
-    due to the winding path of the Mississippi that forms the
-    <span class="border" />
-    border between Arkansas, Tennessee and Mississippi.
-    <span class="town white" />Indicate other towns along the Mississippi River. -->
-  </p>
-
-  <p class="sr-only">
-    A map showing river towns along the border of Arkansas, Tennessee and
-    Mississippi.
-  </p>
-
+  <h1 class="headline">Beavers killed by USDA Wildlife Services in 2024</h1>
   <div class="controls">
     <div class="toggle">
       <span class="dek">Shade states by</span>
@@ -98,12 +84,14 @@
         <button
           class:active={selectedVariable == "count"}
           style:--color={colors.count[3]}
-          on:click={() => (selectedVariable = "count")}>Number of beavers</button
+          on:click={() => (selectedVariable = "count")}
+          >Number of beavers</button
         >
         <button
           class:active={selectedVariable == "share"}
           style:--color={colors.share[3]}
-          on:click={() => (selectedVariable = "share")}>Percentage of beavers</button
+          on:click={() => (selectedVariable = "share")}
+          >Percentage of beavers</button
         >
       </div>
     </div>
