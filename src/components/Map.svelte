@@ -87,7 +87,7 @@
           ${
             state && count
               ? `Number of beavers killed: <b>${count}</b><br/>
-                 Percentage of total beavers killed: <b>${share}%</b>`
+                 Percentage of total beavers killed: <b>${(share * 100).toFixed(1)}%</b>`
               : "No data"
           }
         

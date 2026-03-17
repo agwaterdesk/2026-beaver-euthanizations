@@ -12,7 +12,8 @@
     "fetch-doc": "node ./scripts/fetch-doc.js",
     "fallbacks": "node ./scripts/fallbacks.js --type=single",
     "rotate-aws-keys": "./scripts/rotate-aws-keys.sh",
-    "batch-fallbacks": "node ./scripts/fallbacks.js --type=batch"
+    "batch-fallbacks": "node ./scripts/fallbacks.js --type=batch",
+    "share-template": "node ./scripts/share-template.js"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
@@ -25,6 +26,7 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "inquirer": "^8.1.0",
+    "clipboardy": "^4.0.0",
     "jimp": "^0.22.10",
     "minimist": "^1.2.5",
     "node-fetch": "^3.3.0",

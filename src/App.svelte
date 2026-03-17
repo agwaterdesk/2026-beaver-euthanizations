@@ -76,7 +76,21 @@
 <Window />
 <!-- Outer div must have class 'chart-container' don't change -->
 <div class="chart-container">
-  <h1 class="headline">Beavers killed by USDA Wildlife Services in 2024</h1>
+  <h1 class="headline">
+    Beavers intentionally killed by USDA Wildlife Services in 2024
+  </h1>
+  <p class="dek">
+    States across the country contract with the USDA’s Animal and Plant Health
+    Inspection Service for beaver removal. Wisconsin ranks among the top five
+    states in terms of the agency's total annual beaver kill. Hover over a state
+    to see the number of beavers killed and the percentage of total beavers
+    killed.
+  </p>
+  <p class="sr-only">
+    This map of the United States illustrates the number of beavers
+    intentionally killed by USDA Wildlife Services in 2024, with states shaded
+    in varying shades of green to represent the scale of removal.
+  </p>
   <div class="controls">
     <div class="toggle">
       <span class="dek">Shade states by</span>
@@ -109,7 +123,10 @@
   </div>
 
   <div class="credit">
-    Graphic by Jared Whalen /
+    Data: <a
+      href="https://www.aphis.usda.gov/wildlife-services/publications/pdr"
+      target="_blank">USDA Wildlife Services</a
+    >; Graphic by Jared Whalen /
     <a target="_blank" href="https://agwaterdesk.org/">Ag & Water Desk</a>
   </div>
 </div>
