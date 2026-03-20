@@ -54,7 +54,7 @@
 
   const buckets = {
     count: generateNiceTicks(maxes.count, 5),
-    share: generateNiceTicks(maxes.share, 5),
+    share: generateNiceTicks(maxes.share * 100, 5),
   };
 
   const colors = {
