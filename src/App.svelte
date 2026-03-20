@@ -93,7 +93,7 @@
   </p>
   <div class="controls">
     <div class="toggle">
-      <span class="dek">Shade states by</span>
+      <span class="dek">Shade&nbsp;by</span>
       <div class="buttons">
         <button
           class:active={selectedVariable == "count"}
